@@ -1,3 +1,5 @@
+prompt("What is your name?");
+
 prompt("Pick a number between 1 and 10");
 
 /*  for (var i = 0; i < 10; i++) {
