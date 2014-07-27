@@ -1,8 +1,13 @@
-prompt("What is your name?");
+var number = Math.floor((Math.random() * 100) + 1);
 
-prompt("Pick a number between 1 and 10");
+var name = prompt("What is your name?");
 
-/*  for (var i = 0; i < 10; i++) {
-    alert("You've won an iPad");
-  }
-*/
+/* alert("Your name is " + name); */
+
+var userNumber = prompt("Pick a number between 1 and 100");
+if (userNumber === number){
+  alert("you win!");
+} else {
+  alert("you lose! the number was " + number);
+}
+
